@@ -1,0 +1,54 @@
+section {
+	padding: 2em;
+}
+
+.foo {
+	font-family: 'Papyrus';
+}
+
+section.foo {
+	color: red;
+}
+
+.foo h2 {
+	text-decoration: underline;
+}
+
+.foo > h3 {
+	color: purple;
+}
+
+h3 ~ p {
+	font-weight: bold;
+}
+
+h4 + p {
+	text-decoration: underline;
+}
+
+a {
+	text-decoration: none;
+}
+
+a[href^="#"] {
+	color: pink;
+	background: blue;
+}
+
+a[href$=".biz"],
+a[href*=".org"] {
+	font-size: 1.5em;
+}
+
+ul li:nth-child(2n) a {
+	color: white;
+	background: black;
+}
+
+ul li:nth-child(2n+1) a[href$=".com"]::before {
+	content: "🧸";
+}
+
+ul li a[href*="amazon"]::after {
+	content: "🐍";
+}

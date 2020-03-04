@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "demo.css",
+	"sources": [
+		"../src/demo.scss"
+	],
+	"sourcesContent": [
+		"section {\n  background: pink;\n\n  div {\n    background: yellow;\n\n    > h4 {\n      background: orange;\n\n      + p {\n        text-decoration: underline;\n      }\n    }\n  }\n\n  &.bar {\n    border: 3px dashed green;\n  }\n}\n"
+	],
+	"names": [],
+	"mappings": ";AAAA,AAAA,OAAO,CAAC;EACN,UAAU,EAAE,IAAI;CAiBjB;;;AAlBD,AAGE,OAHK,CAGL,GAAG,CAAC;EACF,UAAU,EAAE,MAAM;CASnB;;;AAbH,AAMI,OANG,CAGL,GAAG,GAGC,EAAE,CAAC;EACH,UAAU,EAAE,MAAM;CAKnB;;;AAZL,AASM,OATC,CAGL,GAAG,GAGC,EAAE,GAGA,CAAC,CAAC;EACF,eAAe,EAAE,SAAS;CAC3B;;;AAXP,AAeE,OAfK,AAeJ,IAAI,CAAC;EACJ,MAAM,EAAE,gBAAgB;CACzB"
+}

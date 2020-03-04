@@ -1,0 +1,26 @@
+/* line 1, ../../../../../../../../../../../../../Users/karlhohn/code/pmcg324c-week6-selectors/src/demo.scss */
+section {
+  background: pink;
+}
+
+/* line 4, ../../../../../../../../../../../../../Users/karlhohn/code/pmcg324c-week6-selectors/src/demo.scss */
+section div {
+  background: yellow;
+}
+
+/* line 7, ../../../../../../../../../../../../../Users/karlhohn/code/pmcg324c-week6-selectors/src/demo.scss */
+section div > h4 {
+  background: orange;
+}
+
+/* line 10, ../../../../../../../../../../../../../Users/karlhohn/code/pmcg324c-week6-selectors/src/demo.scss */
+section div > h4 + p {
+  text-decoration: underline;
+}
+
+/* line 16, ../../../../../../../../../../../../../Users/karlhohn/code/pmcg324c-week6-selectors/src/demo.scss */
+section.bar {
+  border: 3px dashed green;
+}
+
+/*# sourceMappingURL=demo.css.map */

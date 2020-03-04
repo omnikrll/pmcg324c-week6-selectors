@@ -1,0 +1,19 @@
+section {
+  background: pink;
+
+  div {
+    background: yellow;
+
+    > h4 {
+      background: orange;
+
+      + p {
+        text-decoration: underline;
+      }
+    }
+  }
+
+  &.bar {
+    border: 3px dashed green;
+  }
+}
